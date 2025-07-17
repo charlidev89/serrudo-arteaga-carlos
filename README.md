@@ -10,11 +10,11 @@ Sistema backend para gestión y monitoreo de aeronaves cercanas a una torre de c
 ---
 
 ##  **Tecnologías Utilizadas**  
-| Tecnología | Función |  
-|------------|---------|  
-| ![Node.js](https://img.shields.io/badge/Node.js-18+-green) | Entorno de ejecución |  
-| ![Express](https://img.shields.io/badge/Express-5.x-blue) | Framework para API REST |  
-| ![Git](https://img.shields.io/badge/Git-2.40+-orange) | Control de versiones |  
+Nodejs - Entorno de ejecución
+Express - Framework de API REST
+Git - Control de versiones
+Nodemon - Herramienta de desarrollo
+
 
 ---
 
@@ -35,7 +35,7 @@ El servidor estará disponible en:
 
 ---
 
-## 📡 **Endpoints**  
+##  **Endpoints**  
 | Método | Endpoint | Descripción | Ejemplo de Body |  
 |--------|----------|-------------|-----------------|  
 | `POST` | `/api/aeronaves` | Registra/actualiza aeronave | `{"id":"ABC123", "x":100, "y":200, "z":300}` |  
@@ -75,7 +75,7 @@ src/
 
 ---
 
-## 📌 **Pruebas Realizadas**   ://localhost:3000/api/aeronaves
+##  **Pruebas Realizadas**   ://localhost:3000/api/aeronaves
 - ✅ Registro exitoso de aeronaves  y get de las aeronaves
 <img width="1224" height="839" alt="image" src="https://github.com/user-attachments/assets/0c1118cb-3e61-43ee-ab5f-8fdd0a8eaaec" />
 <img width="1227" height="925" alt="image" src="https://github.com/user-attachments/assets/fba6ef81-ae07-4ea8-8e9a-291376a06710" />
