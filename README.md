@@ -1,6 +1,6 @@
-# 📝 **Documentación del Proyecto: Sistema de Control de Aeronaves**  
+#  **Documentación del Proyecto: Sistema de Control de Aeronaves**  
 
-## 🛫 **Descripción**  
+##  **Descripción**  
 Sistema backend para gestión y monitoreo de aeronaves cercanas a una torre de control, con:  
 ✔ Registro y actualización de posiciones  
 ✔ Validación de datos en tiempo real  
@@ -9,7 +9,7 @@ Sistema backend para gestión y monitoreo de aeronaves cercanas a una torre de c
 
 ---
 
-## 🛠 **Tecnologías Utilizadas**  
+##  **Tecnologías Utilizadas**  
 | Tecnología | Función |  
 |------------|---------|  
 | ![Node.js](https://img.shields.io/badge/Node.js-18+-green) | Entorno de ejecución |  
@@ -18,7 +18,7 @@ Sistema backend para gestión y monitoreo de aeronaves cercanas a una torre de c
 
 ---
 
-## 🚀 **Instalación**  
+##  **Instalación**  
 ```bash
 # 1. Clonar repositorio
 git clone https://github.com/charlidev89/serrudo-arteaga-carlos/master.git
@@ -31,7 +31,7 @@ npm install
 npm run dev
 ```
 El servidor estará disponible en:  
-🔗 [http://localhost:3000](http://localhost:3000)  
+[http://localhost:3000](http://localhost:3000)  
 
 ---
 
@@ -43,7 +43,7 @@ El servidor estará disponible en:
 
 ---
 
-## 🧪 **Validaciones**  
+##  **Validaciones**  
 ```json
 // Ejemplo de error (400 Bad Request)
 {
@@ -51,15 +51,15 @@ El servidor estará disponible en:
 }
 ```
 
-## 🚨 **Alertas de Colisión**  
+##  **Alertas de Colisión**  
 ```bash
 # Mensaje en consola al detectar riesgo
-⚠️ ALERTA: Posible colisión entre VUELO001 y VUELO002
+ ALERTA: Posible colisión entre VUELO001 y VUELO002
 ```
 
 ---
 
-## 📂 **Estructura del Proyecto**  
+##  **Estructura del Proyecto**  
 ```
 src/
 ├── controllers/       # Lógica de endpoints
