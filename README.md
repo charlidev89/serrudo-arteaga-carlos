@@ -49,6 +49,10 @@ El servidor estará disponible en:
 {
   "error": "El ID debe tener 3 letras + 3 números (ej: ABC123)"
 }
+
+{
+    "error": "La coordenada X debe ser un número"
+}
 ```
 
 ##  **Alertas de Colisión**  
